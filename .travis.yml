@@ -23,4 +23,4 @@ before_install:
   - export GRADLE_HOME=$PWD/gradle-1.6
   - export PATH=$GRADLE_HOME/bin:$PATH
 script:
-  - gradle build
+  - gradle check
