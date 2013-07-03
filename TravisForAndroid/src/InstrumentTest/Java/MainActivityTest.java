@@ -22,7 +22,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
     }
 
     public void testChangeText() {
-        assertNotNull(mainActivity);
+        assertNull("Activity is not null, just checkin",mainActivity); 
     }
 
 }
