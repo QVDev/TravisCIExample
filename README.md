@@ -9,3 +9,4 @@ Building
 These are the tools currently utilised:
 - Automation: Gradle
 - Continuous Integration Server: TravisCI
+- Android Activity tests
