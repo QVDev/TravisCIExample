@@ -23,8 +23,8 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 
     }
 
-    public void testChangeText() {
-        assertNull("Activity is not null, just checkin", mainActivity);
+    public void testActivityCreation() {
+        assertNotNull("Activity is null, check creating of activity", mainActivity);
     }
 
 }
