@@ -17,3 +17,10 @@ before_install:
   # API 16 stuff which needs to be provided
   - SDK=$(android list sdk --no-ui | grep ", API 16," | cut -d"-" -f1)
   - android update sdk --filter "$SDK" --no-ui --force
+  # Gradle
+  - wget http://services.gradle.org/distributions/gradle-1.6-bin.zip
+  - unzip gradle-1.6-bin.zip
+  - export GRADLE_HOME=$PWD/gradle-1.6
+  - export PATH=$GRADLE_HOME/bin:$PATH
+script:
+  - gradle build
