@@ -47,3 +47,10 @@ before_install:
 
 script:
   - gradle connectedInstrumentTest
+
+env:
+  global:
+  - GH_REPO="rogerz/rogerz.github.com"
+  - secure: "XXlgBw3C5lk9bae0VSMeyU2bkPLS/ncdDTYtvMonxUtVYLtRX51q3DrdSY0X\n6LPpbYYVcNGqHOywu2p0VBXy+1FhmA7e0OUxl05kDGF5tQ8FTYVizoMDfp+1\nL0jdo7PyK3IiqLFZY4PFAdww0ERMBUu0t1qxfbXt7+VtCO+q07Y="
+  
+after_success: .utility/update-gh-pages.sh
