@@ -3,17 +3,17 @@ package qvdev.examples.travisforandroid.tests;
 import android.app.Activity;
 import android.test.ActivityInstrumentationTestCase2;
 
-import qvdev.examples.travisforandroid.MainActivity;
+import qvdev.examples.travisforandroid.View.MainView;
 
 /**
  * Created by dirkwilmer on 7/3/13.
  */
-public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity> {
+public class MainActivityTest extends ActivityInstrumentationTestCase2<MainView> {
 
     Activity mainActivity = null;
 
     public MainActivityTest() {
-        super(MainActivity.class);
+        super(MainView.class);
     }
 
     @Override

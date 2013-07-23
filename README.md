@@ -10,3 +10,6 @@ These are the tools currently utilised:
 - Automation: Gradle
 - Continuous Integration Server: TravisCI
 - Android Activity tests
+
+Extras:
+- Implemented (M)odel, (V)iew, (P)resenter architecture
