@@ -13,3 +13,7 @@ These are the tools currently utilised:
 
 Extras:
 - Implemented (M)odel, (V)iew, (P)resenter architecture
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/QVDev/travisciexample/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
