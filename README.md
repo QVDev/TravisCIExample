@@ -17,3 +17,5 @@ Extras:
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/QVDev/travisciexample/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+
+[![Coverage Status](https://coveralls.io/repos/QVDev/TravisCIExample/badge.png)](https://coveralls.io/r/QVDev/TravisCIExample)
